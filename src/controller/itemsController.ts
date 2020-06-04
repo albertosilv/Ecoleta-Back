@@ -7,7 +7,7 @@ class ItemsController{
             return {
                 id: item.id,
                 title: item.title,
-                image_url: `http://localhost:4000/uploads/${item.image}`
+                image_url: `https://ecoleta5456.herokuapp.com/uploads/${item.image}`
             }
         })
         return res.json(serializedItems)
